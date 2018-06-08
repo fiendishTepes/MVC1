@@ -4,9 +4,9 @@ ob_start();
 session_start();
 define('DOMAIN', 'mvc1/public');
 /* * *******Mysql*********** */
-define('HOST', '114.109.186.174');
+define('HOST', 'localhost');
 define('USER', 'root');
-define('PASS', '5205500779');
+define('PASS', '');
 define('DB', 'holiday');
 /* * *********************** */
 define('ROOT', dirname(__DIR__) . DIRECTORY_SEPARATOR);
@@ -25,7 +25,7 @@ define('PATH', ROOTS == $_SERVER['DOCUMENT_ROOT'] ? '' : substr(ROOTS, strlen($_
 $modeules = [ROOT, APP, CORE, CONTROLLER, MODEL];
 set_include_path(get_include_path() . PATH_SEPARATOR . implode(PATH_SEPARATOR, $modeules));
 spl_autoload_register('spl_autoload', false); //ใช้โหลดไฟล์ที่ต้องใช้ แบบ งง 
-
+include VIEW."header.php";
 include CUSTOM . "theme.php";
 
 ?>
@@ -50,4 +50,4 @@ include CUSTOM . "theme.php";
         </td>
     </tr>
 </table>
-
+<?php include VIEW."footer.php"; ?>
