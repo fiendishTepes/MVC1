@@ -4,7 +4,7 @@ ob_start();
 session_start();
 define('DOMAIN', 'mvc1/public');
 /* * *******Mysql*********** */
-define('HOST', 'localhost');
+define('HOST', '114.109.186.174');
 define('USER', 'root');
 define('PASS', '5205500779');
 define('DB', 'holiday');
