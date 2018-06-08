@@ -1,0 +1,7 @@
+#RewriteEngine On
+# no one gets in here!
+#deny from all
+ErrorDocument 404 "<h1>ERROR 404</h1>"
+ErrorDocument 403 "<h1>ERROR 403</h1>"
+ErrorDocument 500 "<h1>ERROR 500</h1>"
+ Options -Indexes 
