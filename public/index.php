@@ -6,7 +6,7 @@ define('DOMAIN', 'mvc1/public');
 /* * *******Mysql*********** */
 define('HOST', 'localhost');
 define('USER', 'root');
-define('PASS', '');
+define('PASS', '123456789');
 define('DB', 'holiday');
 /* * *********************** */
 define('ROOT', dirname(__DIR__) . DIRECTORY_SEPARATOR);
