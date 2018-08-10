@@ -2,6 +2,6 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title><?php echo TITLE; ?></title>
     </head>
     <body>

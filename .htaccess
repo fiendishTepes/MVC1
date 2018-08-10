@@ -1,5 +1,8 @@
 Options -MultiViews
 RewriteEngine On
-# RewriteBase /myp2/public/
+# RewriteBase /ecom/public/
 ErrorDocument 404 "<h1>ERROR</h1>"
 # RewriteRule ^ index.php [QSA,L]
+
+RewriteRule ^view/([0-9]+)/$ /board/?id=$1
+RewriteRule ^view/([0-9]+)$ /ecom/public/board/$1/ [R]

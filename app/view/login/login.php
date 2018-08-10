@@ -18,7 +18,7 @@
         </tr>
         <tr>
             <td>
-                <button type="submit">LOGIN</button>
+                <button class="btb btn-info" type="submit">LOGIN</button>
             </td>
             
         </tr>

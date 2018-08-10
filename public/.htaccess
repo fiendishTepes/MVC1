@@ -2,6 +2,6 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-l
-RewriteBase /mvc1/public/
+RewriteBase /ecom/public/
 ErrorDocument 404 "<h1>ERROR</h1>"
 RewriteRule ^ index.php [QSA,L]

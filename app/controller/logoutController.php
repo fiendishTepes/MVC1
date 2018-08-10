@@ -1,6 +1,7 @@
 <?php
 class logoutController {
-    public function __construct() {
+    function __construct() {
         session_destroy();
+        header("Location:/".DOMAIN."/");
     }
 }
